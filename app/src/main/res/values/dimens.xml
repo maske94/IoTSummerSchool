@@ -1,0 +1,14 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="default_margin">16dp</dimen>
+
+    <!-- Tabs -->
+    <dimen name="tabs_height">65dp</dimen>
+
+    <!-- Shimmer Tab Fragment -->
+    <dimen name="fragment_shimmer_button_width">150dp</dimen>
+    <dimen name="fragment_shimmer_image_height">200dp</dimen>
+
+</resources>

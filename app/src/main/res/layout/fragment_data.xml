@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:padding="@dimen/activity_horizontal_margin"
+              android:gravity="center">
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvTimestampText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/default_margin"
+            android:text="Timestamp:"
+            android:textAppearance="?attr/textAppearanceListItem"
+            android:textSize="19sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvXText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/default_margin"
+            android:text="@string/data_accelerometer_x"
+            android:textAppearance="?attr/textAppearanceListItem"
+            android:textSize="19sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvYText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/default_margin"
+            android:text="@string/data_accelerometer_y"
+            android:textAppearance="?attr/textAppearanceListItem"
+            android:textSize="19sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvZText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/default_margin"
+            android:text="@string/data_accelerometer_z"
+            android:textAppearance="?attr/textAppearanceListItem"
+            android:textSize="19sp"
+            android:textStyle="bold"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tvTimestampValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/default_margin"
+            android:textSize="19sp"/>
+
+        <TextView android:id="@+id/tvXValue"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:textSize="19sp"
+                  android:layout_marginBottom="@dimen/default_margin"/>
+
+        <TextView android:id="@+id/tvYValue"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:textSize="19sp"
+                  android:layout_marginBottom="@dimen/default_margin"/>
+
+        <TextView android:id="@+id/tvZValue"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:textSize="19sp"
+                  android:layout_marginBottom="@dimen/default_margin"/>
+
+    </LinearLayout>
+</LinearLayout>

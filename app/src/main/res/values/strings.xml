@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- General -->
+    <string name="app_name">Android-IoT</string>
+    <string name="action_settings">Settings</string>
+    <string name="image_description">An image&#8230;</string>
+
+    <!-- Main Activity -->
+    <string name="bluetooth_no_adapter">This phone does not have bluetooth capabilities&#8230;</string>
+    <string name="bluetooth_not_granted">Bluetooth permissions not granted&#8230;</string>
+
+    <!-- Shimmer Tab -->
+    <string name="pair_no_sensor_selected">No sensor selected&#8230;</string>
+    <string name="pair_select_sensor_text">Select Sensor</string>
+    <string name="pair_change_sensor_text">Change Sensor</string>
+    <string name="fragment_shimmer_connect">Connect</string>
+    <string name="fragment_shimmer_disconnect">Disconnect</string>
+    <string name="state_none">Not Connected</string>
+    <string name="state_connecting">Connecting&#8230;</string>
+    <string name="state_connecting_attempts">Connecting, attempt %1$d of %2$d</string>
+    <string name="state_connected">Connected</string>
+    <string name="state_initialized">Fully Initialized</string>
+    <string name="state_streaming">Streaming data&#8230;</string>
+    <string name="state_stop_streaming">Connected</string>
+
+    <!-- Data Tab Fragment -->
+    <string name="data_timestamp">Timestamp:</string>
+    <string name="data_accelerometer_z">Accelerometer Z:</string>
+    <string name="data_accelerometer_y">Accelerometer Y:</string>
+    <string name="data_accelerometer_x">Accelerometer X:</string>
+
+    <!-- Devices List Fragment -->
+    <string name="devices_list_paired_devices">Paired Devices</string>
+
+
+</resources>
